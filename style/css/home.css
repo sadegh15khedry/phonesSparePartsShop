@@ -1,0 +1,134 @@
+*{
+    direction: rtl;
+}
+
+ul>li>a{
+    color: black;
+}
+.nav-tabs>li>a:hover{
+    color: deepskyblue;
+    background-color: #fff!important;
+    border: 0;
+}
+.nav-tabs{
+    border: 0;
+}
+.price-par{
+    text-align: left;
+    margin-left: 12%;
+}
+.como_name{
+    margin-top: 20px;
+    margin-right: 12%;
+}
+
+
+
+#selector2{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    .fixed_top{
+        position: fixed;
+        top: 160px;
+        right: 4%;
+    }
+    .como_name{
+        margin-top: 20px;
+        margin-right: 12%;
+    }
+    .header-img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .current-img{
+        z-index: 2;
+    }
+    .prev-img{
+        z-index:1;
+    }
+    .sec-content{
+        height: 300px;
+        padding: 30px;
+    }
+    .como_img{
+        width: 50%;
+        margin: 0 25%;
+        height: 150px;
+    }
+
+
+    #loading{
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    #text_search{
+        width: 80%;
+    }
+    #selector1{
+        width: 20%;
+    }
+    #selector2{
+        width: 20%;
+        margin: 0 15%;
+    }
+    #search_select_div{
+        margin-top: 20px;
+    }
+    #search{
+        float: left;
+    }
+    #sec_rapper{
+        margin: 80px 0 150px;
+    }
+    #ver-nav{
+        margin-top: 150px;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 768px){
+
+    .sec-content{
+        margin-bottom: 80px;
+    }
+    .last-item{
+        margin-bottom: 100px;
+    }
+
+
+    #sec_rapper{
+        margin-top: 40px;
+    }
+    #headers{
+        display: none;
+    }
+    #slider_rapper{
+        display: none;
+    }
+    #text_search{
+        margin-top: 15px;
+        display: inline;
+        width: 88%;
+    }
+    #selector1{
+        margin-top: 15px;
+    }
+    #search_btn{
+        display: inline;
+    }
+    #selector2{
+        margin-top: 15px;
+    }
+
+}

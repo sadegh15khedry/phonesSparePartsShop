@@ -1,0 +1,121 @@
+*{
+    direction: rtl!important;
+}
+
+
+.radio_btn{
+    margin-right: 3px!important;
+}
+.radio_label{
+    margin-right: 5%;
+}
+.text_err{
+    color: red;
+}
+.display-none,#btn_div{
+    display: none;
+}
+
+
+#first_radio_label{
+    margin-right: 0!important;
+}
+#second-row{
+    padding-top: 200px;
+}
+#adding_pic{
+    background-color: gray;
+    color: white;
+    display: block;
+}
+#price_number{
+    margin-top: 20px;
+}
+#submit_btn{
+    color: #000;
+    background-color: #1c699d;
+}
+
+#price_radio{
+    margin-top: 10px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    p{
+        margin-right: 5%;
+        display: inline!important;
+    }
+
+
+    .form-group{
+        margin: 40px 20% 0 20%;
+        width: 70%;
+    }
+    .form-control{
+        width: 60%!important;
+        display: inline!important;
+    }
+    .form-label{
+        display: block!important;
+    }
+    .text_err{
+        margin-right: 3%;
+        display: inline;
+    }
+
+    #price_number_field{
+        margin-top: 20px;
+    }
+    #first_col,#second_col{
+        margin-top: 50px;
+    }
+    #second-row{
+        margin: 500px 20% 0 20%;
+        width: 50%;
+    }
+    #details{
+        height: 100px;
+        width: 100%!important;
+    }
+    #adding_pic{
+        width: 40%;
+        margin: 30px 30% 0 30%;
+
+    }
+    #submit_btn{
+        width: 10%!important;
+        margin: 100px 45% 40px 45%;
+        height: 50px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .text_err{
+        margin-top:8px;
+    }
+    #adding_pic{
+        width: 40%;
+    }
+    #first_col{
+        width: 80%;
+        margin: 50px 9% 80px 9%;
+    }
+    #second_col{
+        width: 80%;
+        margin: 0 9% 30px 9%;
+    }
+    #submit_btn{
+        width: 80%;
+        margin: 0 10% 100px 10% !important;
+    }
+    #price_number_field{
+        margin-top: 10px;
+    }
+
+}

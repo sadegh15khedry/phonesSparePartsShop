@@ -1,0 +1,60 @@
+
+.text-err{
+    color: red;
+}
+
+@media (min-width: 768px) {
+    .form-group{
+        margin-bottom: 30px;
+    }
+    .form-control{
+        width: 50%;
+        display: inline;
+    }
+    .text-err{
+        display: inline;
+        margin-right: 3%;
+    }
+
+
+    #price_div{
+        display: inline!important;
+    }
+    #name_field{
+        margin-right: 30px;
+    }
+    #city_field{
+        margin-right: 91px;
+    }
+    #email_field{
+        margin-right: 90px;
+    }
+    #pass_field{
+        margin-right: 84px;
+    }
+    #re_pass_field{
+        margin-right: 52px;
+    }
+    #rapper{
+        width: 50%;
+        margin: 200px 25% 0 25%;
+    }
+    #first_radio,#second_radio{
+        padding-top: 12px;
+    }
+    #singIn_submit{
+        width: 20%;
+        margin: 20px 35% 0 45% ;
+    }
+    #phone_number_field{
+        margin-right: 60px;
+    }
+
+
+}
+@media (max-width: 768px) {
+    #rapper{
+        width: 50%;
+        margin: 50px 25% 100px 25%;
+    }
+}
